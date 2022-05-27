@@ -30,8 +30,7 @@ a:hover{
 
 .main{
     flex: 0.8;
-    width: 100%;
-    margin-left: 250px;
+
 
 }
 .routes{
@@ -82,7 +81,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width:1170px){
+@media screen and (min-width:1170px){
     .main{
         margin-left: 250px;
     }
