@@ -6,7 +6,7 @@ import millify from 'millify'
 
 
 const Cryptocurrencies = ({simplified}) => {
-  const count= simplified ? 10: 100;
+  const count= simplified ? 12: 100;
     const {data: cryptosList, isFetching} = useGetCryptosQuery(count);
     const [cryptos, setCryptos] = useState(cryptosList?.data?.coins);
     const [searchTerm, setSearchTerm] = useState('');
