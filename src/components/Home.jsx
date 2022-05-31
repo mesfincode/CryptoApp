@@ -23,15 +23,18 @@ const Home = () => {
 
        </Row>
        <div className="home-heading-container">
-           <Title level={2} className='home-title'>Top 10 Cryptocurrencies in the world</Title>
-           <Title level={3} className= "show-more"> <Link to="/cryptocurrencies">Show More</Link></Title>
-       </div>
-       <Cryptocurrencies simplified/>
-       <div className="home-heading-container">
-           <Title level={2} className='home-title'>Latest Crypto News</Title>
-           <Title level={3} className= "show-more"> <Link to="/cryptocurrencies">Show More</Link></Title>
-       </div>
-       <News simplified />
+        <Title level={2} className="home-title">Top 10 Cryptos In The World</Title>
+        <Title level={3} className="show-more"><Link to="/cryptocurrencies">Show more</Link></Title>
+      </div>
+      <Cryptocurrencies simplified />
+      <div className="home-heading-container">
+        <Title level={2} className="home-title">Latest Crypto News</Title>
+      </div>
+      <News simplified />
+      <div className="home-heading-container">
+      <Title level={3}><Link to="/news">Show more</Link></Title>
+      </div>
+
     </>
   )
 }
